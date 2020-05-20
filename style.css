@@ -1,0 +1,35 @@
+body{
+    background: #eee;
+}
+
+#theme-buttone{
+    font-size: 24px;
+    display: block;
+    width: 200px;
+    margin: auto;
+    padding: 150px;
+    cursor: pointer;
+    background: gray;
+}
+
+header{
+    background-color: rgb(121, 140, 165);
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+header.dark-theme{
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
