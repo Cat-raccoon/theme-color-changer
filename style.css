@@ -9,11 +9,17 @@ body{
     margin: auto;
     padding: 150px;
     cursor: pointer;
+}
+
+#theme-buttone.classic{
     background: gray;
+}
+#theme-buttone.dark{
+    background: yellow;
 }
 
 header{
-    background-color: rgb(121, 140, 165);
+
     padding: 10px;
     text-align: center;
     position: fixed;
@@ -22,14 +28,12 @@ header{
     top: 0px;
     left: 0px;
 }
-header.dark-theme{
+
+header.classic{
+    background-color: rgb(121, 140, 165);
+}
+
+header.dark{
     background-color: #000000;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    width: 100%;
-    z-index: 1;
-    top: 0px;
-    left: 0px;
 }
 
